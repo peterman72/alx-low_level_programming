@@ -3,7 +3,7 @@
  * main - prints all possible different combinations of three digits
  * Return: Always 0 (Success)
  */
-int main()
+int main(void)
 {
 	int dig1, dig2, dig3;
 
