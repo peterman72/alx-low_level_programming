@@ -3,7 +3,7 @@
  * main - prints the alphabets in lowercase except q and e
  * Return: Always 0 (success)
  */
-int main (void)
+int main(void)
 {
 	char alp;
 
