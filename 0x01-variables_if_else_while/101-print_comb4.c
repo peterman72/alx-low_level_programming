@@ -9,7 +9,7 @@ int main()
 
 	for (dig1 = 0; dig1 < 8; dig1++)
 	{
-		for (dig2 = 1; dig2 < 9; dig2++)
+		for (dig2 = dig1 + 1; dig2 < 9; dig2++)
 		{
 			for (dig3 = dig2 + 1; dig3 < 10; dig3++)
 			{
