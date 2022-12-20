@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * puts2 - prints every other character of a string
- * starting with the first character
- * @str: char type pointer
+ * puts2 - print one char out of 2 of a string
+ * @str: char array string type
+ * Description: Print 1st char, then 3rd, then 5th, etc..h the first character
  */
 void put2(char *str)
 {
