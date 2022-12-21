@@ -2,13 +2,14 @@
 #include <stdio.h>
 
 /**
- * print_arrray - prints n elements of an arraty of integers
- * @a: int array type
- * @n: int type
- * Description: Numbers must be seperated by comma and space
+ * print_arrray - prints 'n' elements of an arraty of integers
+ * @a: int type array point
+ * @n: int type integer 
+ * description: Numbers must be seperated by comma and space
  * Numbers should be displayed in the same order they are stored in array
  * you can only use printf
  */
+
 void print_array(int *a, int n)
 {
 	int i;
