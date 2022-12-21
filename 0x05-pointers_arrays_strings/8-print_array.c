@@ -5,6 +5,7 @@
  * print_arrray - prints n elements of an arraty of integers
  * @a: int array type
  * @n: int type
+ * Description: Numbers must be seperated by comma
  */
 void print_array(int *a, int n)
 {
@@ -14,7 +15,7 @@ void print_array(int *a, int n)
 	{
 		printf("%d", a[i]);
 
-		if (i > 0)
+		if (i >= 0)
 		{
 			printf(", ");
 		}
