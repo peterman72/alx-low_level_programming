@@ -3,9 +3,9 @@
 /**
  * print_arrray - prints n elements of an arraty of integers
  * @a: int array type
- * @b: int type
+ * @n: int type
  */
-void print_array(int *a, int b)
+void print_array(int *a, int n)
 {
 	int i;
 
