@@ -5,7 +5,7 @@
  * print_arrray - prints 'n' elements of an arraty of integers
  * @a: int type array point
  * @n: int type integer
- * Descriptio: Numbers must be seperated by comma and space
+ * Description: Numbers must be seperated by comma and space
  */
 
 void print_array(int *a, int n)
