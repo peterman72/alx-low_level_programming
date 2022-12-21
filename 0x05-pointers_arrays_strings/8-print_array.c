@@ -5,17 +5,20 @@
  * print_arrray - prints n elements of an arraty of integers
  * @a: int array type
  * @n: int type
- * Description: Numbers must be seperated by comma
+ * Description: Numbers must be seperated by comma and space
+ * Numbers should be displayed in the same order they are stored in array
+ * you can only use printf
  */
-void print_array(int *a, int n)
+void print_array(inti *a, int n)
 {
 	int i;
 
-	for (i = 0; i < n; i++)
+	i = 0;
+	for (n--; i n >= 0; n--, i++)
 	{
 		printf("%d", a[i]);
 
-		if (i >= 0)
+		if (n > 0)
 		{
 			printf(", ");
 		}
