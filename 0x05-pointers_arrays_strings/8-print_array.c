@@ -9,7 +9,7 @@
  * Numbers should be displayed in the same order they are stored in array
  * you can only use printf
  */
-void print_array(inti *a, int n)
+void print_array(int *a, int n)
 {
 	int i;
 
