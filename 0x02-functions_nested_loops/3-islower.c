@@ -4,6 +4,7 @@
  * _islower - checks for lowercase character
  * @c - int type char
  * Return: return 1 if lowercase otherwise 0
+ * description: c must ne lowercase run man islower
  */
 int _islower(int c)
 {
